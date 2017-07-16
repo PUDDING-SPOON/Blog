@@ -1,0 +1,279 @@
+body{
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	text-align:center;			
+	background:url(../images/bg.jpg) fixed no-repeat;
+}
+
+#container{
+	position:relative;
+	margin:1px auto 0px auto;
+	width:760px;
+	text-align:left;
+}
+#content{
+	margin-top:5px;
+	background-color:#E6E6E6;	
+	border-radius:5px 5px 0 0;
+	}
+#globallink{
+	width:760px; 
+	height:163px;	/* 设置块的尺寸，高度大于banner图片 */
+	margin:0px; 
+	padding:0px;
+	/* 再设置背景颜色，作为导航菜单的背景色 */
+	background:#1a79bd url(../images/banner.jpg) no-repeat top;
+	font-size:12px;
+}
+#globallink ul{
+    list-style-type:none;
+	position:absolute;			/* 绝对定位 */
+	width:417px;
+	left:400px; top:145px;		/* 具体位置 */
+	padding:0px; margin:0px;
+}
+#globallink li{
+	text-align:center;
+	float:left; 
+	padding:0px 6px 0px 6px;	/* 链接之间的距离 */
+}
+#globallink a:link, #globallink a:visited{
+	color:#fff;
+	text-decoration:none;
+}
+#globallink a:hover{
+	border-right:  1px solid;
+	border-top:  1px solid;
+	border-left:  1px solid;	
+	font-size: 15px;
+	color:#CCC;
+	line-height: 20px;
+	background-color: #FFF;
+	text-decoration:none;
+}
+.modhead {
+	position:relative;
+	float:left;
+	padding:10px 10px 0 10px; 
+	margin-left:10px; 
+	margin-top:10px;
+	border-radius:10px 10px 0 0;
+	background-color:#89CEE9;
+	font-weight: bold;  
+	font-size: 12px; 
+	color: #ffffff	
+}
+#parameter{
+	background-color:#FFFFFF;
+	position:relative;
+	float:left;
+	width:210px;
+	padding:0px;
+	margin:0 10px 10px 10px;
+}
+#parameter div{
+	clear:both;
+	margin-top:25px;
+	position:relative;
+}
+#parameter div#author{
+	text-align:center;
+	background:url(../images/mypic_bg.gif) no-repeat;		
+	margin-top:5px;
+}
+div#author p{
+	margin:0px 10px 0px 10px;
+	padding:3px 0px 3px 0px;
+	border-bottom:1px dashed #999999;
+	border-top:1px dashed #999999;
+}
+div#author p.mypic{
+	border:none;
+	padding:15px 0px 0px 0px;
+	margin:0px 0px 8px 0px;
+}
+div#author p.mypic img{
+	border:1px solid #444444;
+	padding:2px; 
+	margin:0px;
+}
+#parameter div{
+	margin-top:25px;
+	position:relative;
+}
+#parameter div h1{					
+	background:url(../images/leftbg.jpg) no-repeat;
+	font-size:12px;
+	padding: 6px 0px 5px 27px;
+	margin:0px;
+}
+#parameter div ul{
+	list-style:none;
+	margin:5px 15px 0px 15px;
+	padding:0px;
+}
+#parameter div ul li{
+	padding:2px 3px 2px 15px;
+	background:url(../images/icon1.gif) no-repeat 8px 7px;
+	border-bottom:1px dashed #999999;		
+}
+#left {
+    background-color:#FFFFFF;
+    position:relative;
+	float:left;
+	width:210px;
+	padding:0px;
+	margin:0 10px 10px 10px;
+}
+ #mainf {
+    height: 500px;
+    width:500px;          
+}
+
+
+
+#main{
+	background-color:#FFFFFF;
+	float:left;
+	position:relative;
+	font-size:12px;
+	margin:0 10px 10px 0;
+	width:510px;
+}
+.article{
+	position:relative;
+	margin:20px;
+	border:1px solid #000000;
+}
+#main div h3{
+	font-size:15px;
+	margin:0px;
+	padding:3px 0px 3px 0px;
+	text-decoration:none;
+	border-bottom:1px dotted #999999;			/* 下划淡色虚线 */
+}
+
+#main p.author{
+	margin:0px;
+	text-align:right;
+	color:#888888;
+	padding:2px 5px 2px 0px;
+}
+#main p.content{
+	margin:10px;
+	padding:10px 0px 10px 0px;	
+}
+#main .message{
+	margin:20px;
+	
+}
+#footer{
+	clear:both;			/* 消除float的影响，排版相关的章节已经大量涉及 */
+	text-align:center;
+	background-color:#daeeff;
+	margin:0px; padding:0px;
+	color:#004a87;
+}
+#footer p{
+	margin:0px; 
+	padding:2px;
+}
+
+#register{	
+	margin-top:5px;
+	width:760px;
+	text-align:center;
+	background-color:#E6E6E6;	
+	border-radius:5px 5px 0 0;
+}
+#register input{
+	margin:10px ;	
+}
+#login{
+    list-style-type:none;
+	position:absolute;			/* 绝对定位 */
+	width:278px;
+	left:571px; 
+top:0px;		/* 具体位置 */
+	padding:0px; margin:0px;
+    height: 29px;
+}
+#gallery {
+	padding: 30px;
+}
+.ad-gallery, .ad-gallery * {
+	margin: 3px 0 3px 0;
+	border-radius:5px;
+	padding: 0;
+}
+.ad-gallery .ad-image-wrapper {
+	text-align:center;
+	height: 300px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.ad-gallery .ad-slideshow-controls .ad-slideshow-countdown {
+	padding-left: 5px;
+	font-size: 0.9em;
+}
+.ad-gallery .ad-slideshow-running .ad-slideshow-start {
+	cursor: default;
+	font-style: italic;
+}
+.ad-gallery .ad-nav {
+	position: relative;
+	border:none;
+}
+.ad-gallery .ad-forward, .ad-gallery .ad-back {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	z-index: 10;
+}
+* html .ad-gallery .ad-forward, .ad-gallery .ad-back {
+	height: 100px;
+}
+.ad-gallery .ad-back {
+	cursor: pointer;
+	left: -20px;
+	width: 13px;
+	display: block;
+	background: url(../image/ad_scroll_back.png) 0px 22px no-repeat;
+}
+.ad-gallery .ad-forward {
+	cursor: pointer;
+	display: block;
+	right: -20px;
+	width: 13px;
+	background: url(../image/ad_scroll_forward.png) 0px 22px no-repeat;
+}
+.ad-gallery .ad-nav .ad-thumbs {
+	overflow: hidden;
+}
+.ad-gallery .ad-thumbs .ad-thumb-list {
+	float: left;
+	list-style: none;
+}
+.ad-gallery .ad-thumbs li {
+	float: left;
+	padding-right: 5px;
+}
+.ad-gallery .ad-thumbs li a {
+	display: block;
+}
+.ad-gallery .ad-thumbs li a img {
+	display: block;
+}
+
+.ad-preloads {
+	position: absolute;
+	left: -9000px;
+	top: -9000px;
+}
+
+
+
+
+
